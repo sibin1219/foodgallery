@@ -1,0 +1,360 @@
+#divv{
+    width: 100%;
+    height: 1000px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: #000;
+    
+}
+h5{
+    font-size: xx-large;
+    font-weight: 800;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #1a1a1a, #222); /* Updated background gradient */
+    color: #fff;
+  }
+marquee{
+    color: rgb(240, 189, 5);
+    position: absolute;
+}
+#d{
+    display: flex;
+}
+*{
+    
+    background-color: rgba(16, 15, 15, 0);
+
+}
+#navbar{
+    margin: 0px;
+    
+}
+
+div H1 img{
+    margin-left: 500px;
+    margin-bottom: 100px;
+    border: #00000000;
+    width: 700px;
+    height: 200px;
+}
+
+#navbar ul{
+    display:flex ;
+    margin-bottom: 900px;
+    width: 700px;
+    margin-left: 0px;
+    margin-right: 900px;
+   }
+li a{
+  
+    margin: 5px;
+    font-weight: 300;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+
+}
+ul li a:hover {
+    color: #ffcc00;
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 10px;
+  }
+
+
+.backvideo{
+  width: 1600px;
+    position: absolute;
+    right: 4;
+    bottom: 4;
+    z-index: -1;
+    
+   
+}
+
+.row{
+    width: 1600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(251, 249, 249);
+}
+.col{
+    width: 280px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    border-radius: 21px;
+    margin-left: 30px;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.row2{
+    width: 1600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(251, 249, 249);
+}
+.col2{
+    width: 280px;
+    height: 400px;
+    background: rgb(47, 47, 47);
+    border-radius: 21px;
+    margin-left: 30px;
+    align-items: center;
+    transition: transform 0.1s ease-in-out;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    border-radius:21px;
+    border: 1px solid rgb(0, 0, 0);
+}
+button{
+    background: black;
+    color: wheat;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    border: 2px solid white;
+}
+h2,h3,p{
+    color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.col button a{
+  color: white;
+  text-decoration: none;
+}
+.col:hover{
+    box-shadow: 7px 8px 9px black;
+  transform: scale(1.1);
+   
+}
+.col2:hover{
+    box-shadow: 7px 8px 9px black;
+  transform: scale(1.1);
+   
+}
+.overlay{
+    position: absolute;
+    font-size: larger;
+    font-weight: 900;
+    top: 500px;
+    left: 500px;
+   font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+}
+
+#last{
+    margin-top: 20px;
+    margin-left: 390px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 253, 253);
+}
+#la{ margin-top: 20px;
+    margin-left: 630px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+color: white;
+}
+button:hover{
+    color:rgb(22, 9, 203);
+}
+
+#bannerimg{
+    background-image: url(./images/xauk7akf.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .advanced-footer {
+    width: 1600px;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-section h2 {
+    color: #ffcc00;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+  }
+
+  footer a img{
+    width: 100px;
+    height: 100px;
+  }
+
+
+  /* Existing styles remain the same */
+
+@media only screen and (max-width: 400px) {
+    #divv {
+      width: 100%;
+      height: 500px;
+      flex-direction: column;
+      align-items: stretch;
+    }
+ 
+    
+    div H1 img {
+      margin-left: 0;
+      width: 100%; /* Make the image fill the container width */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 10px;
+    }
+
+    
+  
+    #navbar ul {
+      flex-direction: row;
+      
+
+    }
+    #navbar ul li a{
+   
+    margin: 5px;
+    padding: 0px;
+    font-size: small;
+    font-weight: 100;
+    }
+   
+    .backvideo{
+        width: 100%;
+        height: 650px;
+        margin-bottom: 0px;
+    }
+  
+    .row{
+        margin-top: 0px;
+        flex-direction: column;
+      height: 1000px;
+      margin-right: 100px;
+      width: 100%;
+      background-image: url(https://img.freepik.com/premium-vector/seamless-set-fast-food-doodles-white-vector-illustration-perfect-menu-food-package-design_40453-3033.jpg?w=740);
+    }
+    .row2 {
+      flex-direction: column;
+      margin: 1px;
+      margin-top: 1200px;
+      margin-left: 0px;
+      height: 1000px;
+      margin-right: 100px;
+      width: 100%;
+    }
+  
+    .col{
+        
+            width: 200px;
+            height: 500px;
+            margin-left: 0px;
+            margin-bottom: 30px;
+          
+    }
+    .col2 {
+      width: 200px;
+      height: 500px;
+      margin-left: 0px;
+      margin-bottom: 30px;
+    }
+  
+    #last {
+      margin-left: 0;
+      margin-top: 690px;
+    }
+  
+    #la {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+
+    #bannerimg{
+        background-image: url(https://wallpapercave.com/wp/wp6955940.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+        background-color: #1a1a1a;
+    
+    }
+
+    .footer-section {
+        flex: 1 0 100%; /* Allow the sections to take full width */
+      }
+  
+      .footer-bottom p {
+        font-size: 12px; /* Adjust font size for smaller screens */
+      }
+      .advanced-footer{
+        margin-top: 100px;
+      }
+    
+  }
